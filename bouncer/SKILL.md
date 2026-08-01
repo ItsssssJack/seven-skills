@@ -19,6 +19,16 @@ This applies to skills the user found, skills a video recommended, and skills th
 
 A skill is not a plugin, it is **standing instructions injected into your agent's context**. A bad one bloats every turn, fights other skills for triggers, or quietly tells your agent to do things you never asked for. The Bouncer gates all three.
 
+## Gate 0 — The candidate search (run FIRST, before any download)
+
+Hermes already scans installs for malware. The Bouncer's job is JUDGMENT: is this the right hire at all?
+
+1. Search GitHub for alternatives doing the same job (`gh api search/repositories` or web search): same capability keywords, sorted by stars.
+2. Compare the top 2-3 candidates on: live star count (verify via API, never trust a video), last push date (stale > 60 days = flag), size, and whether an installed skill already covers this.
+3. Report a one-line comparison before anything else: "X (2.3k★, pushed this week) vs Y (48k★, pushed yesterday) vs already-installed Z. Recommend: Y." If an installed skill already does the job, say so and stop.
+
+Only the winning candidate proceeds to the gates below.
+
 ## How to run an audit
 
 1. **Get the skill locally.** If given a GitHub URL, clone it to a temp dir first. Never install before auditing.

@@ -1,6 +1,15 @@
 # Design Principles — the distilled taste system
 
-Synthesized from Jack's chapter deliverables + the strongest public design skills (ui-ux-pro-max 112K★, taste-skill 70K★, hallmark 20K★, make-interfaces-feel-better 2.6K★). One opinion per topic; Jack's system wins every tie.
+Synthesized from Jack's chapter deliverables + Jack's taste-design skill (the power-design ruleset) + the strongest public design skills (ui-ux-pro-max 112K★, taste-skill 70K★, hallmark 20K★, make-interfaces-feel-better 2.6K★). One opinion per topic; Jack's system wins every tie.
+
+## The power-design rules (from Jack's taste-design skill, always enforced)
+
+- **Max 1 accent color, saturation below 80%.** The "AI purple/blue neon" aesthetic is BANNED: no purple button glows, no neon gradients.
+- Absolute neutral bases (zinc/slate), never pure `#000000`, one palette per output with no warm/cool gray drift.
+- Hierarchy through weight and color, not screaming size. Body max 65 chars per line, relaxed leading.
+- For premium/creative work prefer distinctive faces (Geist, Outfit, Satoshi; editorial serifs like Fraunces or Instrument Serif). Serif never appears in dashboards. Numbers go monospace when density is high.
+- Motion is spring-physics micro-interaction, perpetual but subtle; nothing blocking, nothing looping loudly.
+- The atmosphere dials: density (airy → cockpit), variance (symmetric → artsy), motion (static → cinematic). Pick the dials before designing, then obey them.
 
 ## Color
 

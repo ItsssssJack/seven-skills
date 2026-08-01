@@ -7,6 +7,16 @@ description: Jack's mega design skill. One dispatcher that gives the agent taste
 
 One skill, one taste system. The agent never guesses what good looks like again.
 
+## Credited sources (the five big ones, distilled)
+
+- [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) — 112k★, the design-intelligence giant
+- [taste-skill](https://github.com/Leonxlnx/taste-skill) — 70k★, "gives your AI good taste"
+- [hallmark](https://github.com/Nutlope/hallmark) — 20k★, the anti-AI-slop skill
+- [make-interfaces-feel-better](https://github.com/jakubkrehel/make-interfaces-feel-better) — the UI-details article as a skill
+- Jack's own taste-design ruleset (the power-design rules in `references/design-principles.md`)
+
+This skill does not replace them; it distills one opinionated, conflict-free system from them so five skills never fight over one trigger.
+
 This is a **dispatcher**: the file you are reading stays small and loads the right reference module for the job. Never load more than two modules for one task.
 
 ## Dispatch table
