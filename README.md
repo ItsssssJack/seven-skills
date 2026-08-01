@@ -15,7 +15,7 @@ Skills are hires. Most people install 100 interns and wonder why the office is c
 | 3 | **The Cartographer** | [`graphify/`](graphify/) | Anything → knowledge graph. The agent queries the map instead of re-reading files. |
 | 4 | **Moving Day** | [`moving-day/`](moving-day/) | One command moves the agent to a Linux VPS that never sleeps: harden, install, systemd, watchdog, Telegram. |
 | 5 | **The Dispatcher** | [`route/`](route/) | Routes every job to the cheapest model that can actually do it. Frontier for thinking, budget for grunt work. |
-| 6 | **The Dreamer** | [`dreamer/`](dreamer/) | Thinks about your day (email, calendar, notes, activity) while you sleep. Morning prescriptions. |
+| 6 | **The Dreamer** | [Notion page](https://app.notion.com/p/3afe8d6bd13781e5b9f9fd84e52f3e3d) | Thinks about your day (email, calendar, notes, activity) while you sleep. Morning prescriptions. Skill file lives on the page. |
 | 7 | **The Professor** | [mattpocock/skills](https://github.com/mattpocock/skills) | The final hire teaches the boss: Matt Pocock's 198k★ pack (Grill Me · Caveat · Teach Me). Not ours — that's the point. |
 | + | **Bonus: Agent Reach** | [Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Eyes on the whole internet, 63k★. |
 
