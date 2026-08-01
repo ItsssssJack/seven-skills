@@ -37,6 +37,7 @@ This is a **dispatcher**: the file you are reading stays small and loads the rig
 5. **Section rhythm**: mono kicker chip → headline with accent word → italic serif subtitle → content → "SO WHAT →" action strip.
 6. **Numbers are heroes.** Big stat, small label, source underneath. Never bury a number in a sentence.
 7. **No em dashes in copy.** Commas, colons, periods.
+7b. **Type alone is not a slide.** Every slide or section carries one crafted visual element built in HTML/CSS: a scene (layered shapes, gradients, silhouettes), a diagram, a data visual, or a hero number treatment. If a screen is only headline + subtitle, it is unfinished. Build the graphic.
 8. **Render-verify loop**: screenshot the output with headless Chrome, read the image, fix what looks off, THEN deliver. Never ship unrendered HTML.
 
 ## Illustration system
