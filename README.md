@@ -10,7 +10,7 @@ Skills are hires. Most people install 100 interns and wonder why the office is c
 
 | # | Hire | Folder | What it does |
 |---|------|--------|--------------|
-| 1 | **The Bouncer** | [`bouncer/`](bouncer/) | Audits ANY skill before install: footprint, overlap, hidden instructions, cost. Proactive: once installed, nothing gets in without passing the five gates. |
+| 1 | **The Bouncer** | [`bouncer/`](bouncer/) | The recruiter: before any skill installs, it searches for better alternatives (Gate 0), then audits footprint, overlap, hidden instructions and cost. Nothing gets hired without the interview. |
 | 2 | **The Art Director** | [`art-director/`](art-director/) | Locks your taste into everything the agent ships. One dispatcher + reference modules loaded on demand. |
 | 3 | **The Cartographer** | [`graphify/`](graphify/) | Anything → knowledge graph. The agent queries the map instead of re-reading files. |
 | 4 | **Moving Day** | [`moving-day/`](moving-day/) | One command moves the agent to a Linux VPS that never sleeps: harden, install, systemd, watchdog, Telegram. |
